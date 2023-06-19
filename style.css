@@ -1,0 +1,173 @@
+/* Reset default bser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #3a3a3a;
+
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  nav {
+    color: #fff;
+    background-color:black;
+    padding: 10px;
+    display: flex; 
+    align-items: center;
+    padding-left: 10px; 
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin-left: 750px;
+  }
+  
+  .menu li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+  }
+  
+  .menu li a:hover {
+    background-color: crimson;
+    color: #fff;
+    transition: all .4s ease-in-out;
+    border-radius: 5px;
+  }
+  .brand{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 15px;
+    text-transform: capitalize;
+}
+.namasatu{
+    color: azure;
+    font-weight: 700;
+
+}
+.namadua{
+    color: crimson;
+    padding-left: 5px;
+}
+.image{
+  display: flex;
+width: 100%;
+transition: 2s;
+margin-top: 10px;
+}
+.image img{
+  width: 100%;
+}
+.wrapper{
+  width: 450px;
+  
+  margin: auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#slide-1:target ~ .image{
+  margin-left: 0px;
+}
+#slide-2:target ~ .image{
+  margin-left: -100%;
+}
+#slide-3:target ~ .image{
+  margin-left: -200%;
+}
+#slide-4:target ~ .image{
+  margin-left: -300%;
+}
+.navi a{
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background-color: gray;
+  font-size: 0px;
+  border-radius: 50%;
+  margin: 4px;
+
+}
+.navi a:hover{
+  background-color: crimson;
+  transition: all .3s ease-in-out;
+}
+.navi{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-top: -50px;
+}
+@media screen and (max-width:800px){
+  .wrapper {
+    width: 90%;
+  }
+}
+.card{
+margin-left: 12px;
+  color: #fff;
+  font-size: 15px;
+}
+.container{
+  color: crimson;
+}
+.foto{
+  text-align: right;
+  margin-top: -17rem;
+  margin-right: 10px;
+
+}
+footer {
+  height: 7rem;
+  background-color: crimson;
+  padding: 10px;
+ 
+  font-size: 14px;
+  margin-top: 9rem;
+}
+.co{
+  text-align: center;
+  font-size: large;
+  
+}
+.form-group{
+  text-align: center;
+  border-radius: 25px;
+ color: crimson;
+ margin-top: 15px;
+
+}
+.send_btn{
+  text-align: center;
+  text-decoration: none;
+  color: crimson;
+  
+}
+.card-group {
+  display: grid;
+flex-direction: row;
+}
